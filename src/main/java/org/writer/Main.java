@@ -15,10 +15,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         /*
-        * Here where checking the existence of the annotations
-        * inside the class person if they exist then the
-        * object of this class will be saved and created in csv file
-        * */
+         * Here we are checking the existence of the annotations
+         * inside the class person if they exist then the
+         * object of this class will be saved and created in csv file
+         * */
         Person annotatedPerson = new Person();
 
         CsvWriter csvWriter = new CsvWriter();
