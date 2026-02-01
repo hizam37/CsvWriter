@@ -33,7 +33,12 @@ dependencies {
 group = 'org.writer'
 version = '1.0-SNAPSHOT'
 description = 'csv'
-java.sourceCompatibility = JavaVersion.VERSION_17
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
 
 publishing {
     publications {
